@@ -1,0 +1,557 @@
+{
+ "false_acceptance_by_regression_tests": [
+  {
+   "regression_tests": "1-9",
+   "green_patches": 776,
+   "issues": 63,
+   "false_acceptance": 0.22164948453608246
+  },
+  {
+   "regression_tests": "10-49",
+   "green_patches": 2147,
+   "issues": 174,
+   "false_acceptance": 0.1960875640428505
+  },
+  {
+   "regression_tests": "50-199",
+   "green_patches": 2286,
+   "issues": 192,
+   "false_acceptance": 0.2458442694663167
+  },
+  {
+   "regression_tests": "200+",
+   "green_patches": 683,
+   "issues": 57,
+   "false_acceptance": 0.26061493411420206
+  }
+ ],
+ "issues_without_regression_tests": 11,
+ "green_patches_on_those": 141,
+ "false_acceptance_excluding_them": 0.22623896809232857,
+ "issues_in_green_population": 497,
+ "issues_with_any_wrong_but_green": 219,
+ "issues_where_all_green_patches_fail": 54,
+ "wrong_but_green_all_intent_tests_fail": 1088,
+ "wrong_but_green_some_intent_tests_fail": 306,
+ "issues_per_difficulty": {
+  "1-4 hours": 42,
+  "15 min - 1 hour": 258,
+  "<15 min fix": 194,
+  ">4 hours": 3
+ },
+ "test_edits": [
+  {
+   "model": "claude-4-5-haiku-high",
+   "instance_id": "django__django-10554",
+   "files": [
+    "tests/queries/test_qs_combinators.py"
+   ],
+   "lines_added": 11,
+   "lines_removed": 6,
+   "intent_pass": false,
+   "hidden_file": true
+  },
+  {
+   "model": "claude-4-5-haiku-high",
+   "instance_id": "django__django-11239",
+   "files": [
+    "tests/dbshell/test_postgresql.py"
+   ],
+   "lines_added": 61,
+   "lines_removed": 0,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "claude-4-5-haiku-high",
+   "instance_id": "django__django-14170",
+   "files": [
+    "tests/db_functions/datetime/test_extract_trunc.py"
+   ],
+   "lines_added": 96,
+   "lines_removed": 53,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "claude-4-5-haiku-high",
+   "instance_id": "django__django-14631",
+   "files": [
+    "tests/forms_tests/tests/test_forms.py"
+   ],
+   "lines_added": 8,
+   "lines_removed": 1,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "claude-4-5-haiku-high",
+   "instance_id": "django__django-15268",
+   "files": [
+    "tests/migrations/test_autodetector.py"
+   ],
+   "lines_added": 7,
+   "lines_removed": 31,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "claude-4-5-haiku-high",
+   "instance_id": "django__django-15315",
+   "files": [
+    "tests/model_fields/tests.py"
+   ],
+   "lines_added": 6,
+   "lines_removed": 3,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "claude-4-5-haiku-high",
+   "instance_id": "sphinx-doc__sphinx-10435",
+   "files": [
+    "tests/test_build_latex.py"
+   ],
+   "lines_added": 4,
+   "lines_removed": 3,
+   "intent_pass": false,
+   "hidden_file": true
+  },
+  {
+   "model": "claude-4-5-haiku-high",
+   "instance_id": "sphinx-doc__sphinx-10449",
+   "files": [
+    "tests/test_ext_autodoc_configs.py"
+   ],
+   "lines_added": 0,
+   "lines_removed": 3,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "claude-4-5-haiku-high",
+   "instance_id": "sphinx-doc__sphinx-9591",
+   "files": [
+    "tests/test_domain_py.py"
+   ],
+   "lines_added": 4,
+   "lines_removed": 2,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "deepseek-3-2-high",
+   "instance_id": "django__django-11141",
+   "files": [
+    "tests/migrations/test_loader.py"
+   ],
+   "lines_added": 6,
+   "lines_removed": 2,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "deepseek-3-2-high",
+   "instance_id": "django__django-11815",
+   "files": [
+    "tests/migrations/test_writer.py"
+   ],
+   "lines_added": 13,
+   "lines_removed": 13,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "deepseek-3-2-high",
+   "instance_id": "django__django-14011",
+   "files": [
+    "django/test/testcases.py"
+   ],
+   "lines_added": 13,
+   "lines_removed": 1,
+   "intent_pass": false,
+   "hidden_file": true
+  },
+  {
+   "model": "deepseek-3-2-high",
+   "instance_id": "django__django-15268",
+   "files": [
+    "tests/migrations/test_autodetector.py"
+   ],
+   "lines_added": 24,
+   "lines_removed": 51,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "deepseek-3-2-high",
+   "instance_id": "django__django-16899",
+   "files": [
+    "tests/admin_checks/tests.py"
+   ],
+   "lines_added": 2,
+   "lines_removed": 2,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "deepseek-3-2-high",
+   "instance_id": "django__django-16950",
+   "files": [
+    "tests/model_formsets/test_uuid.py"
+   ],
+   "lines_added": 1,
+   "lines_removed": 1,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "deepseek-3-2-high",
+   "instance_id": "pylint-dev__pylint-8898",
+   "files": [
+    "tests/config/test_config.py"
+   ],
+   "lines_added": 1,
+   "lines_removed": 1,
+   "intent_pass": false,
+   "hidden_file": true
+  },
+  {
+   "model": "deepseek-3-2-high",
+   "instance_id": "pytest-dev__pytest-5809",
+   "files": [
+    "testing/test_pastebin.py"
+   ],
+   "lines_added": 1,
+   "lines_removed": 1,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "deepseek-3-2-high",
+   "instance_id": "sphinx-doc__sphinx-8265",
+   "files": [
+    "tests/test_pycode_ast.py"
+   ],
+   "lines_added": 1,
+   "lines_removed": 1,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "deepseek-3-2-high",
+   "instance_id": "sympy__sympy-13852",
+   "files": [
+    "sympy/functions/special/tests/test_zeta_functions.py"
+   ],
+   "lines_added": 1,
+   "lines_removed": 1,
+   "intent_pass": false,
+   "hidden_file": true
+  },
+  {
+   "model": "deepseek-3-2-high",
+   "instance_id": "sympy__sympy-19495",
+   "files": [
+    "sympy/sets/tests/test_conditionset.py"
+   ],
+   "lines_added": 1,
+   "lines_removed": 1,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "deepseek-3-2-high",
+   "instance_id": "sympy__sympy-23413",
+   "files": [
+    "sympy/matrices/tests/test_normalforms.py",
+    "sympy/polys/matrices/tests/test_normalforms.py"
+   ],
+   "lines_added": 2,
+   "lines_removed": 2,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "gpt-5-2-high",
+   "instance_id": "django__django-14011",
+   "files": [
+    "django/test/testcases.py"
+   ],
+   "lines_added": 70,
+   "lines_removed": 3,
+   "intent_pass": false,
+   "hidden_file": true
+  },
+  {
+   "model": "gpt-5-mini",
+   "instance_id": "django__django-14011",
+   "files": [
+    "django/test/testcases.py"
+   ],
+   "lines_added": 14,
+   "lines_removed": 1,
+   "intent_pass": false,
+   "hidden_file": true
+  },
+  {
+   "model": "kimi-k2-5-high",
+   "instance_id": "django__django-11815",
+   "files": [
+    "tests/migrations/test_writer.py"
+   ],
+   "lines_added": 13,
+   "lines_removed": 13,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "kimi-k2-5-high",
+   "instance_id": "matplotlib__matplotlib-21568",
+   "files": [
+    "lib/matplotlib/tests/test_dates.py"
+   ],
+   "lines_added": 6,
+   "lines_removed": 6,
+   "intent_pass": false,
+   "hidden_file": true
+  },
+  {
+   "model": "kimi-k2-5-high",
+   "instance_id": "pylint-dev__pylint-4661",
+   "files": [
+    "tests/lint/unittest_lint.py"
+   ],
+   "lines_added": 14,
+   "lines_removed": 1,
+   "intent_pass": false,
+   "hidden_file": true
+  },
+  {
+   "model": "kimi-k2-5-high",
+   "instance_id": "sympy__sympy-12419",
+   "files": [
+    "sympy/concrete/tests/test_sums_products.py"
+   ],
+   "lines_added": 1,
+   "lines_removed": 1,
+   "intent_pass": true,
+   "hidden_file": false
+  },
+  {
+   "model": "gemini-3-pro-high",
+   "instance_id": "django__django-11815",
+   "files": [
+    "tests/migrations/test_writer.py"
+   ],
+   "lines_added": 12,
+   "lines_removed": 12,
+   "intent_pass": false,
+   "hidden_file": true
+  },
+  {
+   "model": "gemini-3-pro-high",
+   "instance_id": "django__django-14608",
+   "files": [
+    "tests/admin_views/tests.py"
+   ],
+   "lines_added": 1,
+   "lines_removed": 1,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "gemini-3-pro-high",
+   "instance_id": "matplotlib__matplotlib-21568",
+   "files": [
+    "lib/matplotlib/tests/test_dates.py"
+   ],
+   "lines_added": 1,
+   "lines_removed": 1,
+   "intent_pass": false,
+   "hidden_file": true
+  },
+  {
+   "model": "gemini-3-pro-high",
+   "instance_id": "sphinx-doc__sphinx-10449",
+   "files": [
+    "tests/test_ext_autodoc_configs.py"
+   ],
+   "lines_added": 0,
+   "lines_removed": 3,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "gemini-3-pro-high",
+   "instance_id": "sympy__sympy-12419",
+   "files": [
+    "sympy/matrices/tests/test_matrices.py"
+   ],
+   "lines_added": 1,
+   "lines_removed": 1,
+   "intent_pass": true,
+   "hidden_file": false
+  },
+  {
+   "model": "gemini-3-pro-high",
+   "instance_id": "sympy__sympy-12481",
+   "files": [
+    "sympy/combinatorics/tests/test_permutations.py"
+   ],
+   "lines_added": 1,
+   "lines_removed": 1,
+   "intent_pass": true,
+   "hidden_file": true
+  },
+  {
+   "model": "gemini-3-pro-high",
+   "instance_id": "sympy__sympy-19495",
+   "files": [
+    "sympy/sets/tests/test_conditionset.py"
+   ],
+   "lines_added": 1,
+   "lines_removed": 1,
+   "intent_pass": true,
+   "hidden_file": true
+  }
+ ],
+ "test_edits_removing_lines": 33,
+ "test_edits_add_only": 1,
+ "leaderboard": [
+  {
+   "model": "claude-4-5-haiku-high",
+   "ours": 335,
+   "published": 333,
+   "difference": 2
+  },
+  {
+   "model": "claude-4-5-opus-high",
+   "ours": 384,
+   "published": 384,
+   "difference": 0
+  },
+  {
+   "model": "claude-4-5-sonnet-high",
+   "ours": 356,
+   "published": 357,
+   "difference": -1
+  },
+  {
+   "model": "claude-4-6-opus",
+   "ours": 378,
+   "published": 378,
+   "difference": 0
+  },
+  {
+   "model": "deepseek-3-2-high",
+   "ours": 350,
+   "published": 350,
+   "difference": 0
+  },
+  {
+   "model": "gemini-3-flash-high",
+   "ours": 379,
+   "published": 379,
+   "difference": 0
+  },
+  {
+   "model": "gemini-3-pro-high",
+   "ours": 353,
+   "published": 348,
+   "difference": 5
+  },
+  {
+   "model": "glm-5-high",
+   "ours": 364,
+   "published": 364,
+   "difference": 0
+  },
+  {
+   "model": "gpt-5-2-codex",
+   "ours": 364,
+   "published": 364,
+   "difference": 0
+  },
+  {
+   "model": "gpt-5-2-high",
+   "ours": 364,
+   "published": 364,
+   "difference": 0
+  },
+  {
+   "model": "gpt-5-mini",
+   "ours": 281,
+   "published": 281,
+   "difference": 0
+  },
+  {
+   "model": "kimi-k2-5-high",
+   "ours": 354,
+   "published": 354,
+   "difference": 0
+  },
+  {
+   "model": "minimax-2-5-high",
+   "ours": 379,
+   "published": 379,
+   "difference": 0
+  }
+ ],
+ "prompt_sample_instance": "django__django-11099",
+ "prompts": {
+  "claude-4-5-haiku-high": {
+   "hash": "8e2cb012bf5b",
+   "forbids_test_edits": true
+  },
+  "claude-4-5-opus-high": {
+   "hash": "8e2cb012bf5b",
+   "forbids_test_edits": true
+  },
+  "claude-4-5-sonnet-high": {
+   "hash": "8e2cb012bf5b",
+   "forbids_test_edits": true
+  },
+  "claude-4-6-opus": {
+   "hash": "8e2cb012bf5b",
+   "forbids_test_edits": true
+  },
+  "deepseek-3-2-high": {
+   "hash": "8e2cb012bf5b",
+   "forbids_test_edits": true
+  },
+  "gemini-3-flash-high": {
+   "hash": "8e2cb012bf5b",
+   "forbids_test_edits": true
+  },
+  "glm-5-high": {
+   "hash": "8e2cb012bf5b",
+   "forbids_test_edits": true
+  },
+  "gpt-5-2-high": {
+   "hash": "8e2cb012bf5b",
+   "forbids_test_edits": true
+  },
+  "gpt-5-mini": {
+   "hash": "8e2cb012bf5b",
+   "forbids_test_edits": true
+  },
+  "kimi-k2-5-high": {
+   "hash": "8e2cb012bf5b",
+   "forbids_test_edits": true
+  },
+  "minimax-2-5-high": {
+   "hash": "8e2cb012bf5b",
+   "forbids_test_edits": true
+  },
+  "gpt-5-2-codex": {
+   "hash": "8e2cb012bf5b",
+   "forbids_test_edits": true
+  },
+  "gemini-3-pro-high": {
+   "hash": "8e2cb012bf5b",
+   "forbids_test_edits": true
+  }
+ },
+ "new_file_patches": 14
+}

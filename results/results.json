@@ -1,0 +1,574 @@
+{
+ "cohort": {
+  "models": 13,
+  "instances": 500,
+  "patches": 6500
+ },
+ "integrity": {
+  "resolved_disagrees_with_test_lists": 0,
+  "f2p_count_differs_from_dataset": 0,
+  "p2p_count_differs_from_dataset": 26,
+  "applied_reports": 6498,
+  "nested_reports": 492,
+  "status_by_model": {
+   "claude-4-5-haiku-high": {
+    "applied": 500
+   },
+   "claude-4-5-opus-high": {
+    "applied": 500
+   },
+   "claude-4-5-sonnet-high": {
+    "applied": 498,
+    "no_report": 2
+   },
+   "claude-4-6-opus": {
+    "applied": 500
+   },
+   "deepseek-3-2-high": {
+    "applied": 500
+   },
+   "gemini-3-flash-high": {
+    "applied": 500
+   },
+   "gemini-3-pro-high": {
+    "applied": 500
+   },
+   "glm-5-high": {
+    "applied": 500
+   },
+   "gpt-5-2-codex": {
+    "applied": 500
+   },
+   "gpt-5-2-high": {
+    "applied": 500
+   },
+   "gpt-5-mini": {
+    "applied": 500
+   },
+   "kimi-k2-5-high": {
+    "applied": 500
+   },
+   "minimax-2-5-high": {
+    "applied": 500
+   }
+  }
+ },
+ "E1": {
+  "pooled_false_acceptance": 0.23106248964031162,
+  "pooled_ci": [
+   0.20042674626071674,
+   0.2640408479980679
+  ],
+  "pooled_regression_green": 6033,
+  "pooled_wrong_but_green": 1394,
+  "per_model": [
+   {
+    "model": "claude-4-5-haiku-high",
+    "patches": 500,
+    "evaluable": 499,
+    "regression_green": 467,
+    "wrong_but_green": 132,
+    "false_acceptance": 0.2826552462526767,
+    "ci_low": 0.24371646206038175,
+    "ci_high": 0.32514066526226787,
+    "official_resolved": 335
+   },
+   {
+    "model": "claude-4-5-opus-high",
+    "patches": 500,
+    "evaluable": 492,
+    "regression_green": 472,
+    "wrong_but_green": 88,
+    "false_acceptance": 0.1864406779661017,
+    "ci_low": 0.1538869889904522,
+    "ci_high": 0.22405726809005533,
+    "official_resolved": 384
+   },
+   {
+    "model": "claude-4-5-sonnet-high",
+    "patches": 500,
+    "evaluable": 497,
+    "regression_green": 471,
+    "wrong_but_green": 115,
+    "false_acceptance": 0.24416135881104034,
+    "ci_low": 0.2075359824363527,
+    "ci_high": 0.2849263460538218,
+    "official_resolved": 356
+   },
+   {
+    "model": "claude-4-6-opus",
+    "patches": 500,
+    "evaluable": 492,
+    "regression_green": 472,
+    "wrong_but_green": 94,
+    "false_acceptance": 0.19915254237288135,
+    "ci_low": 0.1656159345222382,
+    "ci_high": 0.23754679862257308,
+    "official_resolved": 378
+   },
+   {
+    "model": "deepseek-3-2-high",
+    "patches": 500,
+    "evaluable": 497,
+    "regression_green": 461,
+    "wrong_but_green": 112,
+    "false_acceptance": 0.24295010845986983,
+    "ci_low": 0.20602920928692284,
+    "ci_high": 0.2841196930488405,
+    "official_resolved": 350
+   },
+   {
+    "model": "gemini-3-flash-high",
+    "patches": 500,
+    "evaluable": 496,
+    "regression_green": 476,
+    "wrong_but_green": 97,
+    "false_acceptance": 0.20378151260504201,
+    "ci_low": 0.17003336162383312,
+    "ci_high": 0.24227269937629695,
+    "official_resolved": 379
+   },
+   {
+    "model": "gemini-3-pro-high",
+    "patches": 500,
+    "evaluable": 474,
+    "regression_green": 450,
+    "wrong_but_green": 97,
+    "false_acceptance": 0.21555555555555556,
+    "ci_low": 0.18005426988472964,
+    "ci_high": 0.2558722736494021,
+    "official_resolved": 353
+   },
+   {
+    "model": "glm-5-high",
+    "patches": 500,
+    "evaluable": 488,
+    "regression_green": 467,
+    "wrong_but_green": 103,
+    "false_acceptance": 0.22055674518201285,
+    "ci_low": 0.18531572785537526,
+    "ci_high": 0.26035772155945985,
+    "official_resolved": 364
+   },
+   {
+    "model": "gpt-5-2-codex",
+    "patches": 500,
+    "evaluable": 500,
+    "regression_green": 473,
+    "wrong_but_green": 109,
+    "false_acceptance": 0.23044397463002114,
+    "ci_low": 0.19475501867252834,
+    "ci_high": 0.2704762027645275,
+    "official_resolved": 364
+   },
+   {
+    "model": "gpt-5-2-high",
+    "patches": 500,
+    "evaluable": 500,
+    "regression_green": 471,
+    "wrong_but_green": 107,
+    "false_acceptance": 0.22717622080679406,
+    "ci_low": 0.19163083874905934,
+    "ci_high": 0.26713604266992336,
+    "official_resolved": 364
+   },
+   {
+    "model": "gpt-5-mini",
+    "patches": 500,
+    "evaluable": 477,
+    "regression_green": 419,
+    "wrong_but_green": 139,
+    "false_acceptance": 0.3317422434367542,
+    "ci_low": 0.2883662396147938,
+    "ci_high": 0.3781755575972118,
+    "official_resolved": 281
+   },
+   {
+    "model": "kimi-k2-5-high",
+    "patches": 500,
+    "evaluable": 495,
+    "regression_green": 466,
+    "wrong_but_green": 112,
+    "false_acceptance": 0.24034334763948498,
+    "ci_low": 0.20377096386870705,
+    "ci_high": 0.28116183050284277,
+    "official_resolved": 354
+   },
+   {
+    "model": "minimax-2-5-high",
+    "patches": 500,
+    "evaluable": 493,
+    "regression_green": 468,
+    "wrong_but_green": 89,
+    "false_acceptance": 0.19017094017094016,
+    "ci_low": 0.15719367953679073,
+    "ci_high": 0.22819328083296042,
+    "official_resolved": 379
+   }
+  ],
+  "by_difficulty": [
+   {
+    "difficulty": "1-4 hours",
+    "regression_green": 440,
+    "wrong_but_green": 259,
+    "false_acceptance": 0.5886363636363636
+   },
+   {
+    "difficulty": "15 min - 1 hour",
+    "regression_green": 3106,
+    "wrong_but_green": 799,
+    "false_acceptance": 0.25724404378622023
+   },
+   {
+    "difficulty": "<15 min fix",
+    "regression_green": 2448,
+    "wrong_but_green": 307,
+    "false_acceptance": 0.12540849673202614
+   },
+   {
+    "difficulty": ">4 hours",
+    "regression_green": 39,
+    "wrong_but_green": 29,
+    "false_acceptance": 0.7435897435897436
+   }
+  ],
+  "by_repo": [
+   {
+    "repo": "astropy/astropy",
+    "regression_green": 209,
+    "wrong_but_green": 59,
+    "false_acceptance": 0.2822966507177033
+   },
+   {
+    "repo": "django/django",
+    "regression_green": 2848,
+    "wrong_but_green": 577,
+    "false_acceptance": 0.20259831460674158
+   },
+   {
+    "repo": "matplotlib/matplotlib",
+    "regression_green": 400,
+    "wrong_but_green": 104,
+    "false_acceptance": 0.26
+   },
+   {
+    "repo": "mwaskom/seaborn",
+    "regression_green": 25,
+    "wrong_but_green": 16,
+    "false_acceptance": 0.64
+   },
+   {
+    "repo": "pallets/flask",
+    "regression_green": 13,
+    "wrong_but_green": 0,
+    "false_acceptance": 0.0
+   },
+   {
+    "repo": "psf/requests",
+    "regression_green": 88,
+    "wrong_but_green": 11,
+    "false_acceptance": 0.125
+   },
+   {
+    "repo": "pydata/xarray",
+    "regression_green": 276,
+    "wrong_but_green": 56,
+    "false_acceptance": 0.2028985507246377
+   },
+   {
+    "repo": "pylint-dev/pylint",
+    "regression_green": 99,
+    "wrong_but_green": 70,
+    "false_acceptance": 0.7070707070707071
+   },
+   {
+    "repo": "pytest-dev/pytest",
+    "regression_green": 215,
+    "wrong_but_green": 33,
+    "false_acceptance": 0.15348837209302327
+   },
+   {
+    "repo": "scikit-learn/scikit-learn",
+    "regression_green": 404,
+    "wrong_but_green": 46,
+    "false_acceptance": 0.11386138613861387
+   },
+   {
+    "repo": "sphinx-doc/sphinx",
+    "regression_green": 549,
+    "wrong_but_green": 166,
+    "false_acceptance": 0.302367941712204
+   },
+   {
+    "repo": "sympy/sympy",
+    "regression_green": 907,
+    "wrong_but_green": 256,
+    "false_acceptance": 0.2822491730981257
+   }
+  ],
+  "status_counts": {
+   "applied": 6498,
+   "no_report": 2
+  },
+  "empty_patches": 98
+ },
+ "E2": {
+  "overall": [
+   {
+    "behaviour": "edits_tests",
+    "share_of_patches": 0.0053125,
+    "n_with": 34,
+    "intent_pass_with": 0.6764705882352942,
+    "intent_pass_without": 0.7543198240653471,
+    "within_instance_diff": 0.01642424242424242,
+    "instances_mixed": 25
+   },
+   {
+    "behaviour": "adds_tests",
+    "share_of_patches": 0.0,
+    "n_with": 0,
+    "intent_pass_with": null,
+    "intent_pass_without": 0.75390625,
+    "within_instance_diff": null,
+    "instances_mixed": 0
+   },
+   {
+    "behaviour": "edits_hidden_tests",
+    "share_of_patches": 0.005,
+    "n_with": 32,
+    "intent_pass_with": 0.65625,
+    "intent_pass_without": 0.7543969849246231,
+    "within_instance_diff": 0.017108585858585854,
+    "instances_mixed": 24
+   }
+  ],
+  "per_model": [
+   {
+    "model": "claude-4-5-haiku-high",
+    "edits_tests": 0.018036072144288578,
+    "adds_tests": 0.0,
+    "edits_hidden_tests": 0.018036072144288578
+   },
+   {
+    "model": "claude-4-5-opus-high",
+    "edits_tests": 0.0,
+    "adds_tests": 0.0,
+    "edits_hidden_tests": 0.0
+   },
+   {
+    "model": "claude-4-5-sonnet-high",
+    "edits_tests": 0.0,
+    "adds_tests": 0.0,
+    "edits_hidden_tests": 0.0
+   },
+   {
+    "model": "claude-4-6-opus",
+    "edits_tests": 0.0,
+    "adds_tests": 0.0,
+    "edits_hidden_tests": 0.0
+   },
+   {
+    "model": "deepseek-3-2-high",
+    "edits_tests": 0.02414486921529175,
+    "adds_tests": 0.0,
+    "edits_hidden_tests": 0.02414486921529175
+   },
+   {
+    "model": "gemini-3-flash-high",
+    "edits_tests": 0.0,
+    "adds_tests": 0.0,
+    "edits_hidden_tests": 0.0
+   },
+   {
+    "model": "gemini-3-pro-high",
+    "edits_tests": 0.014767932489451477,
+    "adds_tests": 0.0,
+    "edits_hidden_tests": 0.012658227848101266
+   },
+   {
+    "model": "glm-5-high",
+    "edits_tests": 0.0,
+    "adds_tests": 0.0,
+    "edits_hidden_tests": 0.0
+   },
+   {
+    "model": "gpt-5-2-codex",
+    "edits_tests": 0.0,
+    "adds_tests": 0.0,
+    "edits_hidden_tests": 0.0
+   },
+   {
+    "model": "gpt-5-2-high",
+    "edits_tests": 0.002,
+    "adds_tests": 0.0,
+    "edits_hidden_tests": 0.002
+   },
+   {
+    "model": "gpt-5-mini",
+    "edits_tests": 0.0020964360587002098,
+    "adds_tests": 0.0,
+    "edits_hidden_tests": 0.0020964360587002098
+   },
+   {
+    "model": "kimi-k2-5-high",
+    "edits_tests": 0.00808080808080808,
+    "adds_tests": 0.0,
+    "edits_hidden_tests": 0.006060606060606061
+   },
+   {
+    "model": "minimax-2-5-high",
+    "edits_tests": 0.0,
+    "adds_tests": 0.0,
+    "edits_hidden_tests": 0.0
+   }
+  ]
+ },
+ "E3": {
+  "dev_patches": 4261,
+  "dev_wrong": 1032,
+  "holdout_patches": 1772,
+  "holdout_wrong": 362,
+  "holdout_instances": 144,
+  "coefficients": {
+   "log_lines": 0.38338263752122104,
+   "src_files": -0.30374172414659767,
+   "hunks": -0.002157560373246183,
+   "edits_tests": 0.026453359955158847,
+   "adds_tests": 0.0,
+   "stray_file": 0.0,
+   "config_touch": 0.0,
+   "consensus": -0.5737919773117361
+  },
+  "full_model": {
+   "auc": 0.744668116453117,
+   "auc_ci": [
+    0.667703267791831,
+    0.8119402534972409
+   ],
+   "within_auc": 0.5614886731391586,
+   "within_auc_ci": [
+    0.43913622668974855,
+    0.7045985887365198
+   ],
+   "recall_top20": 0.46685082872928174,
+   "recall_top20_ci": [
+    0.3671821244266055,
+    0.566909201108289
+   ]
+  },
+  "consensus_only": {
+   "auc": 0.6873486540496063,
+   "auc_ci": [
+    0.6063635899425655,
+    0.7752582480445738
+   ],
+   "within_auc": 0.5275080906148867,
+   "within_auc_ci": [
+    0.4369842222015147,
+    0.6228090616952903
+   ],
+   "recall_top20": 0.46408839779005523,
+   "recall_top20_ci": [
+    0.334872195458393,
+    0.5994895287958115
+   ]
+  },
+  "single_patch_signals": {
+   "auc": 0.6690813447748912,
+   "auc_ci": [
+    0.5954958953749461,
+    0.7394390879982458
+   ],
+   "within_auc": 0.511326860841424,
+   "within_auc_ci": [
+    0.39607256629035376,
+    0.6395840026415364
+   ],
+   "recall_top20": 0.3674033149171271,
+   "recall_top20_ci": [
+    0.28160239170108536,
+    0.46127437703141927
+   ]
+  },
+  "unseen_model": [
+   {
+    "model": "claude-4-5-haiku-high",
+    "n": 138,
+    "wrong": 34,
+    "auc": 0.7557975113122173
+   },
+   {
+    "model": "claude-4-5-opus-high",
+    "n": 140,
+    "wrong": 25,
+    "auc": 0.7925217391304347
+   },
+   {
+    "model": "claude-4-5-sonnet-high",
+    "n": 140,
+    "wrong": 31,
+    "auc": 0.7408996744598995
+   },
+   {
+    "model": "claude-4-6-opus",
+    "n": 136,
+    "wrong": 21,
+    "auc": 0.7360248447204968
+   },
+   {
+    "model": "deepseek-3-2-high",
+    "n": 137,
+    "wrong": 28,
+    "auc": 0.8009501965923984
+   },
+   {
+    "model": "gemini-3-flash-high",
+    "n": 139,
+    "wrong": 24,
+    "auc": 0.6956521739130435
+   },
+   {
+    "model": "gemini-3-pro-high",
+    "n": 134,
+    "wrong": 25,
+    "auc": 0.7442201834862385
+   },
+   {
+    "model": "glm-5-high",
+    "n": 136,
+    "wrong": 26,
+    "auc": 0.7022727272727273
+   },
+   {
+    "model": "gpt-5-2-codex",
+    "n": 136,
+    "wrong": 27,
+    "auc": 0.7553516819571865
+   },
+   {
+    "model": "gpt-5-2-high",
+    "n": 138,
+    "wrong": 29,
+    "auc": 0.6964568174628282
+   },
+   {
+    "model": "gpt-5-mini",
+    "n": 122,
+    "wrong": 35,
+    "auc": 0.7715927750410508
+   },
+   {
+    "model": "kimi-k2-5-high",
+    "n": 138,
+    "wrong": 32,
+    "auc": 0.7271521226415094
+   },
+   {
+    "model": "minimax-2-5-high",
+    "n": 138,
+    "wrong": 25,
+    "auc": 0.7607079646017698
+   }
+  ]
+ }
+}
